@@ -15,8 +15,6 @@ moment = Moment(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    name = None
-    email = None
     form = NameForm()
     if form.validate_on_submit():
         old_name = session.get('name')
@@ -27,6 +25,7 @@ def index():
         email = form.email.data
         if 'utoronto' not in email.lower():
             flash('Looks like you have changed your email!')
+
         session['email'] = form.email.data
         return redirect(url_for('index'))
     return render_template('index.html', form=form,
