@@ -3,27 +3,26 @@ This repo is a clone of
 https://github.com/miguelgrinberg/flasky
 
 ## Activity 1: Replay and modify example in Chapter 3
-1. Submit a commit when adding one more field for filling in email address
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1_2.jpg" width="700">  
-
-2. Run the project
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1.jpg" width="700">
 
 ## Activity 2: Replay and modify example in Chapter 4
 
-1. Reproduce example 4-7
+1. Submit a commit when adding one more field for filling in email address
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1_2.jpg" width="700">  
+
+2. Reproduce example 4-7
   
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_1.jpg" width="700">
   
-2. Fill in your First name and your UofT email address, click submit
+3. Fill in your First name and your UofT email address, click submit
   
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_2.jpg" width="700">
   
-3. Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd
+4. Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd
 field, click submit.  
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_3.jpg" width="700">
   
-4. Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in
+5. Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in
 the 2nd field, click submit.    
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_4.jpg" width="700">
 
