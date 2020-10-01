@@ -16,7 +16,7 @@ https://github.com/miguelgrinberg/flasky
   
 3. Fill in your First name and your UofT email address, click submit
   
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_2.jpg" width="700">
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_2.jpg" height="300">
   
 4. Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd
 field, click submit.  
