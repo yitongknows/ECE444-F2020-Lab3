@@ -3,6 +3,10 @@ This repo is a clone of
 https://github.com/miguelgrinberg/flasky
 
 ## Activity 1: Replay and modify example in Chapter 3
+1. Submit a commit when adding one more field for filling in email address
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1_2.jpg" width="700">  
+
+2. Run the project
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1.jpg" width="700">
 
 ## Activity 2: Replay and modify example in Chapter 4
