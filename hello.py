@@ -7,10 +7,12 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 
+# configure an encryption key
+
 @app.route('/')
 def index():
     return render_template('index.html',
-                           current_time=datetime.utcnow())
+                           current_time=datetime.utcnow(), name='yitong')
 
 @app.route('/user/<name>')
 def user(name):
