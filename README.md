@@ -25,7 +25,11 @@ the 2nd field, click submit.
 
 ## Activity 2: Briefly summarize the difference between SQL or NoSQL database
 
-First Header | Second Header
+SQL | NoSQL
 ------------ | -------------
-Content cell 1 | Content cell 2
-Content column 1 | Content column 2
+Relational databases that uses fixed columns androws ( or tables) to store data | Non-relational databases that use documents (or graphs) to store data
+Schema is pre-defined | Schema is dynamic
+Complex joins query may be needed to retrieve data | No joins required, may be difficult to apply joins
+Veritically scalable (increase the capacity of a singe server) | Horizontally scalable (adding more servers)
+Use SQL to manipulate data | Querying depends on the database structure
+
