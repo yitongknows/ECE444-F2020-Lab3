@@ -3,26 +3,25 @@ This repo is a clone of
 https://github.com/miguelgrinberg/flasky
 
 ## Activity 1: Replay and modify example in Chapter 3
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1.jpg" width="250">
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1.jpg" width="700">
 
 ## Activity 2: Replay and modify example in Chapter 4
 
 1. Reproduce example 4-7
   
-![Activity 2.1](/img/a2_1.jpg| width=50)
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_1.jpg" width="700">
   
 2. Fill in your First name and your UofT email address, click submit
   
-![Activity 2.2](/img/a2_2.jpg)
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_2.jpg" width="700">
   
 3. Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd
 field, click submit.  
-  
-![Activity 2.3](/img/a2_3.jpg)
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_3.jpg" width="700">
   
 4. Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in
 the 2nd field, click submit.    
-![Activity 2.4](/img/a2_4.jpg | width=100)
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_4.jpg" width="700">
 
 ## Activity 2: Briefly summarize the difference between SQL or NoSQL database
 
