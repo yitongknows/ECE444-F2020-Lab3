@@ -5,6 +5,7 @@ from datetime import datetime
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import Required, Email
+from wtforms.fields.html5 import EmailField
 
 app = Flask(__name__)
 # configure an encryption key
@@ -46,7 +47,7 @@ def internal_server_error(e):
 
 class NameForm(Form):
     name = StringField('What is your name?', validators=[Required()])
-    email = StringField('What is your UofT Email address?', validators=[Email()])
+    email = EmailField('What is your UofT Email address?', validators=[Email()])
     submit = SubmitField('Submit')
 
 if __name__ == '__main__':
