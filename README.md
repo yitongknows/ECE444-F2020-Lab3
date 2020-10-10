@@ -1,3 +1,30 @@
+# ECE444-Lab-Week4&5: Docker Intro
+
+## Activity 3: Briefly summarize the differences between Docker and Virtual Machine.
+
+Docker | Virtual Machine
+------------ | -------------
+ aa | the operating system inside of a VM is hard to maintain
+  aa | Ectremely error prone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ECE444-F2020-Lab3: Flask Web Development 2
 This repo is a clone of
 https://github.com/miguelgrinberg/flasky
@@ -26,7 +53,7 @@ field, click submit.
 the 2nd field, click submit.    
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_4.jpg" width="700">
 
-## Activity 2: Briefly summarize the difference between SQL or NoSQL database
+## Activity 3: Briefly summarize the difference between SQL or NoSQL database
 
 SQL | NoSQL
 ------------ | -------------
