@@ -24,7 +24,7 @@ def index():
         session['name'] = form.name.data
 
         old_email = session.get('email')
-        if old_email is not None and old_email != form.name.email:
+        if old_email is not None and old_email != form.email.data:
             flash('Looks like you have changed your email!')
         session['email'] = form.email.data
 
