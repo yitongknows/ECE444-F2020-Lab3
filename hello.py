@@ -47,7 +47,7 @@ def internal_server_error(e):
 
 class NameForm(Form):
     name = StringField('What is your name?', validators=[Required()])
-    email = EmailField('What is your UofT Email address?', validators=[Email()])
+    email = EmailField('What is your UofT Email address?')
     submit = SubmitField('Submit')
 
 if __name__ == '__main__':

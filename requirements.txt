@@ -1,1 +1,5 @@
-Flask==1.1.1
+flask==1.1.2
+flask-bootstrap==3.3.7
+flask-moment==0.10.0
+flask-wtf==0.14.3
+jinja2==2.11.2
