@@ -1,6 +1,6 @@
 # ECE444-Lab-Week4&5: Docker Intro
 
-## Screenshot of Docker Run Command
+## Screenshot of the Docker Run Command
 <img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/lab4_3.jpg" width="900">  
 
 ## Screenshot of the Browser
