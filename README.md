@@ -1,65 +1,33 @@
 # ECE444-Lab-Week4&5: Docker Intro
 
-## Activity 3: Briefly summarize the differences between Docker and Virtual Machine.
+To build a docker, first I added a `requirements.txt` file in my project so that I can install all the required packages in the container.    
+
+Then, I included a `Dockerfile` including a list of commands for creating a docker image. The picture below shows the location of the `Dockerfile`:  
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/Screenshot_19.jpg" width="400"> 
+
+Next, I added the `docker-compose.yml` file which allows me to run multiple docker containers by running the command `docker-compose up`.
+
+Next, I ran the command `docker build -t lab4:latest .` to build the docker image. 
+
+To run the docker, I used the command shown below:
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/lab4_3.jpg" width="900">  
+This screenshot also shows the docker image for this project. 
+
+Alternatively, I can run the command `docker-compose up` to build and run the container.
+
+The following pictures shows the project is running inside the docker container:
+* Screenshot of the project
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/lab4_1.jpg" width="700"> 
+* Screenshot of the docker container
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/lab4_2.jpg" width="1000">  
+
+
+## Briefly summarize the differences between Docker and Virtual Machine.
 
 Docker | Virtual Machine
 ------------ | -------------
- aa | the operating system inside of a VM is hard to maintain
-  aa | Ectremely error prone
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ECE444-F2020-Lab3: Flask Web Development 2
-This repo is a clone of
-https://github.com/miguelgrinberg/flasky
-
-## Activity 1: Replay and modify example in Chapter 3
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1.jpg" width="700">
-
-## Activity 2: Replay and modify example in Chapter 4
-
-1. Submit a commit when adding one more field for filling in email address
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a1_2.jpg" width="700">  
-
-2. Reproduce example 4-7
-  
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_1.jpg" width="700">
-  
-3. Fill in your First name and your UofT email address, click submit
-  
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_2.jpg" height="300">
-  
-4. Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd
-field, click submit.  
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_6.jpg" width="700">
-  
-5. Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in
-the 2nd field, click submit.    
-<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/master/img/a2_4.jpg" width="700">
-
-## Activity 3: Briefly summarize the difference between SQL or NoSQL database
-
-SQL | NoSQL
------------- | -------------
-Relational databases that uses fixed columns androws ( or tables) to store data | Non-relational databases that use documents (or graphs) to store data
-Schema is pre-defined | Schema is dynamic
-Complex joins query may be needed to retrieve data | No joins required, may be difficult to apply joins
-Veritically scalable (increase the capacity of a singe server) | Horizontally scalable (adding more servers)
-Use SQL to manipulate data | Querying depends on the database structure
-
+ Docker has no operating systems, it runs the images and containers on host operating systems| each VM has its own operating system
+ Docker requires fewer recources to run containers | VM requires more CPU cycles to run projects
+provides isolated environments for each image | cannot guarantee the environment for different developers are the same in order to run the project
+takes a few seconds to run |takes longer time to start a VM 
+Docker container can share hardware space between containers|requires more hardware space for multiple VMs
