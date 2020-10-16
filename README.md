@@ -26,6 +26,8 @@ The following pictures shows the project is running inside the docker container:
 
 Docker | Virtual Machine
 ------------ | -------------
- aa | the operating system inside of a VM is hard to maintain
-  aa | Ectremely error prone
-| cannot guarantee the environment for different developers are the same for the project to run successfully
+ Docker has no operating systems, it runs the images and containers on host operating systems| each VM has its own operating system
+ Docker requires fewer recources to run containers | VM requires more CPU cycles to run projects
+provides isolated environments for each image | cannot guarantee the environment for different developers are the same for the project to run successfully  
+takes a few seconds to run |takes longer time to start a VM 
+Docker container can share hardware spaces between containers|requires more hardware space for multiple VMs
