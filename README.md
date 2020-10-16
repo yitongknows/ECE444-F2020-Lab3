@@ -2,7 +2,8 @@
 
 To build a docker, first I added a `requirements.txt` file in my project so that I can install all the required packages in the container.    
 
-Then, I included a `Dockerfile` including a list of commands for creating a docker image.     
+Then, I included a `Dockerfile` including a list of commands for creating a docker image. The picture below shows the location of the `Dockerfile`:  
+<img src="https://github.com/yitongknows/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/img/Screenshot_19.jpg" width="400"> 
 
 Next, I added the `docker-compose.yml` file which allows me to run multiple docker containers by running the command `docker-compose up`.
 
