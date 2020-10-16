@@ -1,6 +1,6 @@
 # ECE444-Lab-Week4&5: Docker Intro
 
-To build a docker, first I added a `requirements.txt` file in my project so that I can install all the neccessary packages later inside of the container.    
+To build a docker, first I added a `requirements.txt` file in my project so that I can install all the required packages in the container.    
 
 Then, I included a `Dockerfile` including a list of commands for creating a docker image.     
 
