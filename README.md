@@ -28,6 +28,6 @@ Docker | Virtual Machine
 ------------ | -------------
  Docker has no operating systems, it runs the images and containers on host operating systems| each VM has its own operating system
  Docker requires fewer recources to run containers | VM requires more CPU cycles to run projects
-provides isolated environments for each image | cannot guarantee the environment for different developers are the same for the project to run successfully  
+provides isolated environments for each image | cannot guarantee the environment for different developers are the same in order to run the project
 takes a few seconds to run |takes longer time to start a VM 
 Docker container can share hardware spaces between containers|requires more hardware space for multiple VMs
